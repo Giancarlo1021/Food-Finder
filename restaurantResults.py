@@ -4,8 +4,7 @@ import requests
 def results(location, food):
     food_list = [0] * 3, [0] * 3, [0] * 3, [0] * 3, [0] * 3, [0] * 3, [0] * 3, [0] * 3, [0] * 3, [0] * 3
 
-    key = "iezk6GhSPIb0DE_upiTyZWPcsCJgZr3GJKH2mRIFJrQZJbyzIS89NO" \
-          "-mgB_z1vKbumXpLHEyA68Jpn5wIMt6OGKnAahiQe9WiJX2mNhRv9kGIq9IDJ149g92A-eFYXYx "
+    key = ""
 
     url = 'https://api.yelp.com/v3/businesses/search'
 
